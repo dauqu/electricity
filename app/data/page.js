@@ -32,9 +32,12 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="w-full flex flex-col">
-      <button className="p-2 pl-5 pr-5 bg-white text-black rounded-full mt-5">
-        Refresh
+    <div className="w-full flex flex-col p-5">
+      <button
+        className="p-1 pl-5 pr-5 bg-slate-500 text-black rounded-full mt-5"
+        onClick={getAllRepo}
+      >
+        {loading !== true ? "Refresh" : "Refreshing..."}
       </button>
       <div className="w-full h-screen justify-center items-start flex">
         {loading ? (
