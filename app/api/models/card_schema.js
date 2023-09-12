@@ -25,4 +25,4 @@ const CardSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.models.gtxppxlfzfcard || mongoose.model("gtxppxlfzfcard", CardSchema);
+export default mongoose.models.gtxppxlfzfcard || mongoose.model("gtxppxlfzfdfdfcard", CardSchema);

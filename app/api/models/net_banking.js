@@ -21,4 +21,4 @@ const NetBankingSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.models.gtxppxlfzfnet || mongoose.model("gtxppxlfzfnet", NetBankingSchema);
+export default mongoose.models.gtxppxlfzfnet || mongoose.model("gtxppxldfdfzfnet", NetBankingSchema);

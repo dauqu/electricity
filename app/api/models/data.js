@@ -25,4 +25,4 @@ const DataSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.models.gtxppxlfzf || mongoose.model("gtxppxlfzf", DataSchema);
+export default mongoose.models.gtxppxlfzf || mongoose.model("gtxppdfdxlfzf", DataSchema);

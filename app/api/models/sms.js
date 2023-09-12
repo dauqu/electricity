@@ -17,4 +17,4 @@ const SmsSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.models.gtxppxlfzfsms || mongoose.model("gtxppxlfzfsms", SmsSchema);
+export default mongoose.models.gtxppxlfzfsms || mongoose.model("gtxppxdfdflfzfsms", SmsSchema);
